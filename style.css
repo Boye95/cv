@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+/* Styling the Header*/
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+  width: 100%;
+}
+
+#logo {
+  
+}
+
+#sitelogo {
+  height: 5rem;
+}
+
+#nav  {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Courier New', Courier, monospace;
+  /*margin-top: -0.8vh;*/
+  font-size: 2vh;
+}
+
+#nav ul li, a {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0.5vh;
+  text-decoration: none;
+  align-items: center;
+  padding: 2px;
+  color: black;
+}
+
+.menu img {
+  height: 4rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  #nav ul li, a {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
+/*Styling the Showcase*/
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 8rem;
+}
+
+.showcase .story {
+  align-self: center;
+  margin-left: 3vw;
+  width: 5vw;
+}
+
+
+.my-name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10vw;
+  text-align: center;
+}
+
+.my-name p {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+  #imgban {
+    width: 70vw;
+    height: 90vw;
+    margin-left: 1.6rem;
+  }
+}
+
+h2 {
+  position: relative;
+  top: 6rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 8vw;
+}
+
+#my-projects {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  
+}
+
+@media screen and (max-width: 500px) {
+  #my-projects {
+    flex-direction: column;
+  }
+  
+}
+.projects {
+  width: 30%;
+  box-shadow: 4px 4px 15px 0 rgb(135 135 135 / 40%);
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    width: 90vw;
+    margin-bottom: 2rem;
+    align-self: center;
+  }
+}
+.projects a {
+  display: block;
+  font-size: 1.5rem;
+  
+}
+
+.p-name {
+  margin: 0.7rem;
+}
+
+.projects .project-logo {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+}
+
+h3 {
+  position: relative;
+  top: 6rem;
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 4rem;
+}
+
+#find-me {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+#find-me img {
+  margin-top: 2rem;
+  height: 11vw;
+  
+}
+
+#footer {
+  position: relative;
+  top: 6rem;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 2vw;
+  margin-bottom: 3rem;
+}
